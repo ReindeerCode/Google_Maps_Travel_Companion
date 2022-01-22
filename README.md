@@ -5,14 +5,16 @@
   Video Walk through Link -> 
 
 ## Table of Contents: 
-- [Name](#name)
-- [License](#license)
-- [Description](#description)
-- [Installation Instructions](#installationInstructions)
-- [Test](#test)
-- [GitHub](#gitHub)
-- [Email](#email)
-- [Contributors](#contributors)
+- [Project: Google_Maps_Travel_Companion](#project-google_maps_travel_companion)
+  - [Table of Contents:](#table-of-contents)
+  - [License:](#license)
+  - [Description:](#description)
+  - [Installation Instructions:](#installation-instructions)
+  - [Test Command:](#test-command)
+  - [Github:](#github)
+  - [My Email Address:](#my-email-address)
+  - [Other Contributors:](#other-contributors)
+  - [Images:](#images)
 
 ## License:
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -23,6 +25,10 @@ Other than SQL, I have recently fell out of programming a bit. I am dipping my t
 
 ## Installation Instructions: 
 ***ADD INSTALL STEPS HERE LATER
+
+Travel Advisor API - https://rapidapi.com/apidojo/api/travel-advisor/
+Open Weather Map API - https://rapidapi.com/community/api/open-weather-map/
+
 
 ## Test Command: 
 To test type n/a into the terminal
