@@ -1,5 +1,8 @@
 import React from "react";
 
+
+import useStyles from './styles'
+
 const Map = () => {
     return(
         <h1>Map</h1>

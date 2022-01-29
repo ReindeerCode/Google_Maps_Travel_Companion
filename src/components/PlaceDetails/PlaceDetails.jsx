@@ -1,5 +1,7 @@
 import React from "react";
 
+import useStyles from './styles'
+
 const PlaceDetails = () => {
     return(
         <h1>PlaceDetails</h1>
