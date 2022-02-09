@@ -4,6 +4,7 @@ import { Paper, Typography, useMediaQuery } from "@material-ui/core";
 import LocationOnOutlinedIcon from "@material-ui/icons/LocationOnOutlined";
 import Rating from "@material-ui/lab";
 import useStyles from "./styles";
+import App from "../../App";
 
 const Map = ({ setCoordinates, setBounds, coordinates }) => {
   const classes = useStyles();

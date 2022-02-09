@@ -9,12 +9,12 @@ import Map from "./components/Map/Map";
 const App = () => {
   const [places, setPlaces] = useState([]);
 
-  const [coordinates, setCoordinates] = useState([]);
+  const [coordinates, setCoordinates] = useState({});
   const [bounds, setBounds] = useState(null);
 
   useEffect(() => {
     getPlacesData().then((data) => {
-      console.log(data);
+      // console.log(data);
       setPlaces(data);
     });
   }, []);
