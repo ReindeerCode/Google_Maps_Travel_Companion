@@ -9,18 +9,16 @@ import Map from "./components/Map/Map";
 const App = () => {
   const [places, setPlaces] = useState([]);
 
-  const [coordinates, setCoordinates] = useState({ });
+  const [coordinates, setCoordinates] = useState({});
   const [bounds, setBounds] = useState(null);
 
   useEffect(() => {
-    navigator.geolocation.getCurrentPosition(({
-      coords: { latitude, longitude } }) => {
-         setCoordinates({let: latitude, lng: longitude});
-      })
-    });
+    navigator.geolocation.getCurrentPosition(
+      ({ coords: { latitude, longitude } }) => {
+        setCoordinates({ lat: latitude, lng: longitude });
+      }
+    );
   }, []);
-
-
 
   useEffect(() => {
     // console.log(coordinates, bounds);
