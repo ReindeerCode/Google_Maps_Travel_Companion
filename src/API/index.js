@@ -17,7 +17,7 @@ const options = {
   },
 };
 
-export const getPlacesData = async () => {
+export const getPlacesData = async (sw, ne) => {
   try {
     const {
       data: { data },
