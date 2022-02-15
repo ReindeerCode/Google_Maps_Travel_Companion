@@ -1,6 +1,6 @@
 # Project: Google_Maps_Travel_Companion
 
-Deployed Site Link - >
+Deployed Site Link ->
 
 ## Table of Contents:
 
